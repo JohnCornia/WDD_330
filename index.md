@@ -37,4 +37,6 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
 
 ### Table of Contents
- [Week 2 Team Activity](./ta02.html);
+ [Week 1 Story Editor](./story_editor.html)
+ [Week 2 Team Activity](./ta02.html)
+ [Week 3 Teams Activity](./ta03.html)
