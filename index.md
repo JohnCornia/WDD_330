@@ -1,3 +1,9 @@
+
+### Table of Contents
+ [Week 1 Story Editor](./story_editor.html) <br/>
+ [Week 2 Team Activity](./ta02.html) <br/>
+ [Week 3 Teams Activity](./ta03.html) <br/>
+
 ## Welcome to GitHub Pages
 
 You can use the [editor on GitHub](https://github.com/M3skl1n/WDD_330/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
@@ -36,7 +42,3 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
 
-### Table of Contents
- [Week 1 Story Editor](./story_editor.html)
- [Week 2 Team Activity](./ta02.html)
- [Week 3 Teams Activity](./ta03.html)
