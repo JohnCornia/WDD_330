@@ -1,0 +1,76 @@
+<!doctype html>
+<html lang='en'>
+
+<head>
+    <meta charset='utf-8'>
+    <title>W04 Group Project</title>
+    <link rel="stylesheet" href="w04Group.css" />
+    <style>
+        h1
+        {
+            display: block;
+        }
+
+        .gameBoard {
+            display: grid;
+            grid-template-rows: 200px 200px 200px;
+            grid-template-columns: 200px 200px 200px;
+        }
+
+        body {
+            display: flex;
+            justify-content: center;
+        }
+
+        .box {
+            background: white;
+
+            display: flex;
+            /*align-items: center;*/
+            justify-content: center;
+            color: #AAA;
+            font-size: 150px;
+        }
+
+        #box1, #box2, #box4, #box5 {
+            border-right: 1px solid black;
+            border-bottom: 1px solid black;
+        }
+
+        #box3 {border-bottom: 1px solid black;}
+
+        #box6 {border-bottom: 1px solid black;
+        }
+
+        #box7 {border-right: 1px solid black;}
+
+        #box8 {border-right: 1px solid black;}
+
+        
+
+    </style>
+</head>
+
+<body>
+    <div>
+        <h1>Tic Tac Toe</h1>
+    </div>
+    <div class="gameBoard">
+        <div class="box" id="box1" onclick="editBoard('box1')"></div>
+        <div class="box" id="box2" onclick="editBoard('box2')"></div>
+        <div class="box" id="box3" onclick="editBoard('box3')"></div>
+        <div class="box" id="box4" onclick="editBoard('box4')"></div>
+        <div class="box" id="box5" onclick="editBoard('box5')"></div>
+        <div class="box" id="box6" onclick="editBoard('box6')"></div>
+        <div class="box" id="box7" onclick="editBoard('box7')"></div>
+        <div class="box" id="box8" onclick="editBoard('box8')"></div>
+        <div class="box" id="box9" onclick="editBoard('box9')"></div>
+    </div>
+
+
+    <button type='reset' onclick="resetBoard()">Reset</button>
+
+</body>
+<script src='ta04_js.js'></script>
+
+</html>
