@@ -1,9 +1,9 @@
 
 ### Table of Contents
- [Week 1 Story Editor](./story_editor.html) <br/>
- [Week 2 Team Activity](./ta02.html) <br/>
- [Week 3 Teams Activity](./ta03.html) <br/>
- [Week 4 Teams Activity](./ta04.html) <br/>
+ [Week 1 Story Editor](./weekOne/story_editor.html) <br/>
+ [Week 2 Team Activity](./weekTwo/ta02.html) <br/>
+ [Week 3 Teams Activity](./weekThree/ta03.html) <br/>
+ [Week 4 Teams Activity](./weekFour/ta04.html) <br/>
 
 ## Welcome to GitHub Pages
 
