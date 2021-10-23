@@ -10,11 +10,19 @@
   </head>
   <body>
       <div>
-          <form action="">
-              <input type="text" id="newTask" name="newTask">
-              <button type="button">Create New Task</button>
+          <form name="myForm" id="myForm" action="">
+            
           </form>
+          <button name="newTask" id="newTask">Add New Task</button>
       </div>
+      <footer>
+        <h2>Filter Tasks</h2>
+        <label for="totalTasks">Tasks Displayed:</label>
+        <output name="totalTasks"></output><br>
+        <button name="allTasks" id="allTasks">All Tasks</button>
+        <button name="activeTasks" id="activeTasks">Active Tasks</button>
+        <button name="completedTasks" id="completedTasks">Completed Tasks</button>
+      </footer>
 	<script src="./toDo.js"></script>
   </body>
 </html>

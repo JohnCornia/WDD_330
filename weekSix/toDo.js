@@ -1,17 +1,16 @@
-//make a NodeJS module using C++ for the win
+import{qs, onTouch} from './utilities.js';
+import{readFromLS, writeToLS} from 'ls.js';
 
-document.getElementById("newTask").addEventListener("click", function() {
-    //append an element to the form
-  });
+class ToDo {
 
-  document.getElementById("removeTask").addEventListener("click", function() {
-    //remove a task from task list
-  });
+  /*in the constructor you should set a variable with the element 
+  our todo list will be built in, and the key we will use to 
+  read/write from localStorage*/
+  constructor(key, data) {
+    this.key = key;
+    this.data = data;
+  }
+}
 
-  document.getElementById("completeTask").addEventListener("click", function() {
-    //mark an element as complete
-  });
 
-  document.getElementById("filter").addEventListener("click", function() {
-    //pass in a parameter on how you want to filter the elements of the task
-  });
+export default ToDo;
