@@ -13,7 +13,7 @@ function onTouch(elementSelector, callback) {
     for the element to attach the listener to*/
     document.getElementById(elementSelector).addEventListener("touchend", callback);
     document.getElementById(elementSelector).addEventListener("click", callback);
-
+    console.log(elementSelector);
     /*@param {function} callback The callback function to run*/
 
 }
