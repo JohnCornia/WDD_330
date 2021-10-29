@@ -7,4 +7,5 @@
  [Week 5 Team Activity](./weekFive/hiking-complete.html)<br/>
  [Week 6 Challenge One](./weekSix/index.html)<br/>
  [Week 7 Team Activity](./weekSeven/hiking-complete.html)<br/>
- [Week 7 Personal Exercise](./weekSeven/ajaxExercise/index.html)
+ [Week 7 Ajax Exercise](./weekSeven/ajaxExercise/ajax.html)<br/>
+[Week 7 To Do Exercise](./weekSeven/toDoExercise/todo.html)<br/>
