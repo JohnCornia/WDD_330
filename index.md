@@ -6,3 +6,4 @@
  [Week 4 Team Activity](./weekFour/ta04.html) <br/>
  [Week 5 Team Activity](./weekFive/hiking-complete.html)<br/>
  [Week 6 Challenge One](./weekSix/index.html)
+ [Week 7 Team Activity](./weekSeven/hiking-complete.html)
