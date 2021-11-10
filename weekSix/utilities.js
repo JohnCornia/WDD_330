@@ -8,7 +8,7 @@ function qs(selector) {
 //fallback for desktops
 
 function onTouch(elementSelector, callback) {
-
+    console.log("onTouch called");
     /*@param {string} elementSelector The selector 
     for the element to attach the listener to*/
     document.getElementById(elementSelector).addEventListener("touchend", callback);
