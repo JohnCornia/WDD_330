@@ -9,3 +9,7 @@
  [Week 7 Team Activity](./weekSeven/hiking-complete.html)<br/>
  [Week 7 Ajax Exercise](./weekSeven/ajaxExercise/ajax.html)<br/>
 [Week 7 To Do Exercise](./weekSeven/toDoExercise/todo.html)<br/>
+[Week 8 Team Activity](./weekEight/starwars.html)<br/>
+[Week 9 Team Activity](./weekNine/ta09/javascript30-drums/index-START.html)<br/>
+[Week 9 Spinning Shape Animation](./weekNine/index.html)<br/>
+[Week 10 Team Activity](./weekTen/quakes.html)<br/>
