@@ -1,0 +1,33 @@
+header {
+    text-align: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.column {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 90%;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+}
+
+.drop-down-list {
+    text-align: left;
+}
+
+body {
+    height: 90%;
+    margin: 2.5% 5%;
+    border-style: solid;
+    border-width: thin;
+    border-color: black;
+    box-shadow: 30px 30px 10px grey;
+}
+
+html {
+    height: 100%;
+}
+
+.column:hover .drop-down-list {
+    display: block;
+}
