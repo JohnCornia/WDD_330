@@ -14,3 +14,4 @@
 [Week 9 Spinning Shape Animation](./weekNine/index.html)<br/>
 [Week 10 Team Activity](./weekTen/quakes.html)<br/>
 [Week 11 Team Activity](week11/client/week11.html)<br/>
+[Block 2 Challenge](blockTwoChallenge/index.html)
