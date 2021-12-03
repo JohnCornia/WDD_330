@@ -1,18 +1,36 @@
-header {
+h1,
+h2 {
     text-align: center;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
-.column {
+
+/*.column {
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     height: 90%;
     margin: auto;
-    width: 50%;
+    width: 100%;
     text-align: center;
+}*/
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
 }
 
 .drop-down-list {
-    text-align: left;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: left;
+    height: 500px;
+    display: none;
+}
+
+.list-item {
+    background-color: gray;
 }
 
 body {
@@ -28,6 +46,22 @@ html {
     height: 100%;
 }
 
-.column:hover .drop-down-list {
+.flex-container:hover .drop-down-list {
     display: block;
+}
+
+a:visited {
+    color: black;
+}
+
+.list-item:hover {
+    background-color: lightgray;
+}
+
+h2:hover {
+    background-color: gray;
+}
+
+.flex-container:hover h2 {
+    background-color: gray;
 }
