@@ -14,13 +14,22 @@
         <h1>Brazilian Jiu Jitsu Mount Escapes</h1>
     </header>
     <div class="flex-container">
-        <h2>Select Mount Type</h2>
-        <div class="drop-down-list">
-            <a class="list-item" href="./fullMount.html">Full Mount</a><br>
-            <a class="list-item" href="./sideMount.html">Side Mount</a><br>
-            <a class="list-item" href="./kneeMount.html">Knee Mount</a><br>
-            <a class="list-item" href="./backMount.html">Back Mount</a><br>
+        <h2 class=".menu">Select Mount Type</h2>
+        <ul class="drop-down-list">
+            <li class="list-item" id="sideMount">Side Mount</li><br>
+            <li class="list-item" id="kneeMount">Knee Mount</li><br>
+            <li class="list-item" id="backMount">Back Mount</li><br>
+            <li class="list-item" id="fullMount">Full Mount</li><br>
+        </ul>
+    </div>
+    <div id="myModal" class="modal">
+
+        <!-- Modal content -->
+        <div class="modal-content">
+            <span class="close">&times;</span>
+            <p>Some text in the Modal..</p>
         </div>
+
     </div>
     <script src="main.js"></script>
 </body>
