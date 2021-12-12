@@ -20,7 +20,8 @@ function display(elementId, data) {
     console.log(elementId);
     if (elementId == "sideMount" || elementId == "kneeMount" || elementId == "backMount" || elementId == "fullMount") {
         modal.style.display = "block";
-        //console.log(data);
+        console.log(data);
+        //document.getElementById("content").innerHTML = data;
     } else
         modal.style.display = "none";
 }

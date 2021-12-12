@@ -93,6 +93,7 @@ a:visited {
     padding: 20px;
     border: 1px solid #888;
     width: 80%;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     /* Could be more or less, depending on screen size */
 }
 
@@ -103,7 +104,7 @@ a:visited {
     color: #aaa;
     float: right;
     font-size: 28px;
-    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .close:hover,
