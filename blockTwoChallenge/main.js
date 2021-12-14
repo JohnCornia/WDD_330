@@ -20,8 +20,27 @@ function display(elementId, data) {
     console.log(elementId);
     if (elementId == "sideMount" || elementId == "kneeMount" || elementId == "backMount" || elementId == "fullMount") {
         modal.style.display = "block";
-        console.log(data);
-        //document.getElementById("content").innerHTML = data;
+        //console.log(data);
+        var index;
+        if (elementId == "sideMount") {
+            index = 0;
+        }
+        if (elementId == "kneeMount") {
+            index = 1;
+        }
+        if (elementId == "backMount") {
+            index = 2;
+        }
+        if (elementId == "fullMount") {
+            index = 3;
+        }
+
+        document.getElementById("name").innerHTML = data.mount[index].name;
+        document.getElementById("description").innerHTML = data.mount[index].description;
+        document.getElementById("escape").innerHTML = data.mount[index].escapes[0].description;
+        document.getElementById("escapeVid").src = data.mount[index].escapes[0].url;
+        document.getElementById("attack").innerHTML = data.mount[index].escapes[1].description;
+        document.getElementById("attackVid").src = data.mount[index].escapes[1].url;
     } else
         modal.style.display = "none";
 }
