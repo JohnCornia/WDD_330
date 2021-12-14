@@ -28,10 +28,10 @@ function display(elementId, data) {
         if (elementId == "kneeMount") {
             index = 1;
         }
-        if (elementId == "backMount") {
+        if (elementId == "fullMount") {
             index = 2;
         }
-        if (elementId == "fullMount") {
+        if (elementId == "backMount") {
             index = 3;
         }
 
